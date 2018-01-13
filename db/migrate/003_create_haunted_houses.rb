@@ -10,5 +10,9 @@ class CreateHauntedHouses < ActiveMigration::Migration
       t.string :closing_date
       t.string :long_description
       t.timestamps
+    end
+  end
+
+end
 
 # Create your haunted_houses migration here
